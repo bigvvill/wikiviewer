@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Viewer</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" href="assets/wiki-style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+  
+  </head>
+  
+  <body>
+    <div class="topBanner">
+      <h1>WikipediA Viewer</h1>
+    
+      <div class="typeDiv">
+        <p class="typing"></p>
+        <a id="randomButton" class="btn btn-default randomButton" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a>
+      </div>
+    
+      <br>
+    
+      <div class="inputDiv">
+        <input type=text class="inputBox" id="intext" name="place" placeholder="Search Wikipedia">
+        <button id="submitButton" class="btn btn-default   submitButton">Submit</button>
+      </div>
+    </div>
+    <div id="outputDiv" class="col-md-6 col-md-offset-3">
+    </div>
+    
+    <script src="assets/wiki-script.js"></script>
+  
+  </body>
+
+</html>

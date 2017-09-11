@@ -1,0 +1,112 @@
+h1 {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-variant: small-caps;
+  font-size: 100px;
+  
+   
+}
+
+.inputDiv {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.typeDiv {
+  width: 25%;
+  height: 25px;
+  margin: 0 auto;
+  white-space:nowrap;
+}
+
+.inputBox {
+  width: 70%;
+
+}
+
+.submitButton {
+  margin: right;
+}
+
+.card-header {
+  font-size: 24px;
+}
+
+.card {
+  font-family: 'Times New Roman', serif;
+  color:black;
+}
+
+.typing {
+  width: 70%;
+  border: 1px solid #a9a9a9;
+  height: 25px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+@media (max-width: 599px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .inputDiv {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+  }
+  
+  .typeDiv {
+    width: 80%;
+    height: 25px;
+    margin: 0 auto;
+    white-space:nowrap;
+    padding: 10px 0 0 0;
+  }
+  
+  .inputBox {
+    width: 70%;
+
+  }
+  
+  p {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 
+  }
+
+}
+
+
+/*@media (max-width: 1439px) {
+  
+  .inputDiv {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0 0 50px;
+  }
+  
+  .typeDiv {
+    width: 50%;
+    height: 25px;
+    margin: 0 auto;
+    padding: 0 0 0 50px;
+
+  }
+
+  .inputBox {
+    width: 250px;
+    margin: 20 auto;
+  }
+  
+  .typing {
+    width: 250px;
+    border: 1px solid #a9a9a9;
+    height: 25px;
+    margin: 0 auto; 
+  }
+}
